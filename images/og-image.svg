@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <clipPath id="screen">
+      <rect x="799" y="-17" width="282" height="610" rx="37"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#f6f5f0"/>
+  <circle cx="940" cy="280" r="334" fill="#e8eddb"/>
+  <circle cx="940" cy="280" r="286" fill="none" stroke="#d6dfc8" stroke-width="2"/>
+  <rect x="780" y="-36" width="320" height="648" rx="54" fill="#151516"/>
+  <rect x="786" y="-30" width="308" height="636" rx="48" fill="#303033"/>
+  <image href="screenshot.png" x="799" y="-17" width="282" height="610" preserveAspectRatio="none" clip-path="url(#screen)"/>
+  <image href="tomoz-app-icon.jpg" x="76" y="72" width="54" height="54" preserveAspectRatio="xMidYMid slice"/>
+  <text x="147" y="110" fill="#172019" font-family="Arial, sans-serif" font-size="31" font-weight="700">Tomoz</text>
+  <text x="77" y="238" fill="#66715a" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">TOMORROW'S SCHEDULE</text>
+  <text x="73" y="326" fill="#172019" font-family="Arial, sans-serif" font-size="69" font-weight="600" letter-spacing="-3">Plan for</text>
+  <text x="73" y="405" fill="#172019" font-family="Arial, sans-serif" font-size="69" font-weight="600" letter-spacing="-3">Tomorrow,</text>
+  <text x="73" y="490" fill="#172019" font-family="Georgia, serif" font-size="76" font-style="italic" letter-spacing="-3">Today</text>
+  <path d="M76 502c63 8 137 8 216-2" fill="none" stroke="#c5ed73" stroke-width="13" stroke-linecap="round"/>
+  <text x="78" y="557" fill="#687065" font-family="Arial, sans-serif" font-size="20">A calmer view of the day ahead.</text>
+</svg>
