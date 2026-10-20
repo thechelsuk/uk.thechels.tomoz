@@ -33,6 +33,7 @@ jobs:
           test -s CNAME
           test -s robots.txt
           test -s sitemap.xml
+          test -s llms.txt
           test -s images/tomoz-app-icon.jpg
           test -s images/screenshot.png
           test -s images/og-image.png
@@ -42,7 +43,7 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           mkdir -p _site/images
-          cp CNAME index.html styles.css robots.txt sitemap.xml _site/
+          cp CNAME index.html styles.css robots.txt sitemap.xml llms.txt _site/
           cp images/tomoz-app-icon.jpg images/screenshot.png images/og-image.png images/app-store-badge.svg _site/images/
 
       - name: Configure GitHub Pages

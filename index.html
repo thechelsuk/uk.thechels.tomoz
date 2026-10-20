@@ -9,9 +9,12 @@
       name="description"
       content="Plan for tomorrow today with Tomoz, a calendar planner for iPhone. Preview events, export your schedule, use Siri Shortcuts, and optionally add Reminders."
     >
+    <meta name="author" content="thechelsuk">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://tomoz.thechels.uk/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Tomoz">
+    <meta property="og:locale" content="en_GB">
     <meta property="og:url" content="https://tomoz.thechels.uk/">
     <meta property="og:title" content="Tomoz: Tomorrow's Schedule">
     <meta
@@ -38,24 +41,113 @@
     >
     <title>Tomoz: Tomorrow's Schedule</title>
     <link rel="icon" href="images/tomoz-app-icon.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="images/tomoz-app-icon.jpg">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Tomoz: Tomorrow's Schedule",
-        "operatingSystem": "iOS 18.5 or later",
-        "applicationCategory": "ProductivityApplication",
-        "url": "https://tomoz.thechels.uk/",
-        "downloadUrl": "https://apps.apple.com/gb/app/tomoz/id6748755747",
-        "image": "https://tomoz.thechels.uk/images/tomoz-app-icon.jpg",
-        "screenshot": "https://tomoz.thechels.uk/images/screenshot.png",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "GBP",
-          "description": "Free to download; the optional Reminders add-on is a one-time £1.99 in-app purchase."
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://thechels.uk/#person",
+            "name": "Mat Benfield",
+            "alternateName": "thechelsuk",
+            "url": "https://thechels.uk/",
+            "sameAs": [
+              "https://links.thechels.uk/",
+              "https://github.com/thechelsuk",
+              "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://tomoz.thechels.uk/#website",
+            "url": "https://tomoz.thechels.uk/",
+            "name": "Tomoz",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://tomoz.thechels.uk/#app",
+            "name": "Tomoz: Tomorrow's Schedule",
+            "operatingSystem": "iOS 18.5 or later",
+            "applicationCategory": "ProductivityApplication",
+            "url": "https://tomoz.thechels.uk/",
+            "downloadUrl": "https://apps.apple.com/gb/app/tomoz/id6748755747",
+            "image": "https://tomoz.thechels.uk/images/tomoz-app-icon.jpg",
+            "screenshot": "https://tomoz.thechels.uk/images/screenshot.png",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "GBP",
+              "description": "Free to download; the optional Reminders add-on is a one-time £1.99 in-app purchase."
+            },
+            "description": "Tomoz is a calendar planner for iPhone that shows tomorrow's events, and optionally your reminders, in one clean preview so you can plan the night before.",
+            "inLanguage": "en-GB",
+            "featureList": [
+              "Preview tomorrow's events from the calendars you choose",
+              "Colour-code calendars to see what's what at a glance",
+              "Optional Reminders add-on shows tasks alongside events",
+              "Export as Markdown, JSON or CSV",
+              "Spoken summary with Siri and automation with Apple Shortcuts"
+            ],
+            "author": {
+              "@id": "https://thechels.uk/#person"
+            },
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://tomoz.thechels.uk/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does Tomoz do?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Tomoz shows a clean preview of tomorrow's calendar events so you can plan the night before instead of scrambling in the morning."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does it show my reminders too?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. With the optional Reminders add-on, a one-time £1.99 in-app purchase, your tasks appear alongside tomorrow's events."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I export my plan?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Export as Markdown, JSON or CSV, ask Siri for a spoken summary, or automate exports with Apple Shortcuts."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my calendar data private?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Your calendar and Reminders data stays on your device and is never sent to a server."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which devices are supported?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "iPhone running iOS 18.5 or later."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -159,6 +251,35 @@
             <a class="text-link" href="https://thechels.uk/app/privacy">Read our privacy policy <span aria-hidden="true">↗</span></a>
           </div>
           <span class="privacy-stamp" aria-hidden="true">PRIVATE<br>BY DESIGN<br>✳</span>
+        </div>
+      </section>
+
+      <section class="faq section-wrap" id="faq" aria-labelledby="faq-title">
+        <div class="section-intro">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>What does Tomoz do?</summary>
+            <p>Tomoz shows a clean preview of tomorrow&#x27;s calendar events so you can plan the night before instead of scrambling in the morning.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does it show my reminders too?</summary>
+            <p>Yes. With the optional Reminders add-on, a one-time £1.99 in-app purchase, your tasks appear alongside tomorrow&#x27;s events.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I export my plan?</summary>
+            <p>Yes. Export as Markdown, JSON or CSV, ask Siri for a spoken summary, or automate exports with Apple Shortcuts.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is my calendar data private?</summary>
+            <p>Yes. Your calendar and Reminders data stays on your device and is never sent to a server.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which devices are supported?</summary>
+            <p>iPhone running iOS 18.5 or later.</p>
+          </details>
         </div>
       </section>
 

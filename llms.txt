@@ -1,0 +1,54 @@
+# Tomoz
+
+> Tomoz is a calendar planner for iPhone that shows tomorrow's events, and optionally your reminders, in one clean preview so you can plan the night before.
+
+Available now on the App Store.
+
+Key facts:
+
+- Platform: iPhone, iOS 18.5 or later
+- Price: free to download; the optional Reminders add-on is a one-time £1.99 in-app purchase
+- Privacy: calendar and Reminders data stays on the device and is never sent to a server
+- Developer: Mat Benfield (thechelsuk), made in the UK
+
+## Links
+
+- [Tomoz website](https://tomoz.thechels.uk/): the official marketing site
+- [App Store](https://apps.apple.com/gb/app/tomoz/id6748755747): download the app
+- [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
+- [Project page](https://thechels.uk/projects/tomoz): background from the developer
+
+## Features
+
+- Preview tomorrow's events from the calendars you choose
+- Colour-code calendars to see what's what at a glance
+- Optional Reminders add-on shows tasks alongside events
+- Export as Markdown, JSON or CSV
+- Spoken summary with Siri and automation with Apple Shortcuts
+
+## FAQ
+
+### What does Tomoz do?
+
+Tomoz shows a clean preview of tomorrow's calendar events so you can plan the night before instead of scrambling in the morning.
+
+### Does it show my reminders too?
+
+Yes. With the optional Reminders add-on, a one-time £1.99 in-app purchase, your tasks appear alongside tomorrow's events.
+
+### Can I export my plan?
+
+Yes. Export as Markdown, JSON or CSV, ask Siri for a spoken summary, or automate exports with Apple Shortcuts.
+
+### Is my calendar data private?
+
+Yes. Your calendar and Reminders data stays on your device and is never sent to a server.
+
+### Which devices are supported?
+
+iPhone running iOS 18.5 or later.
+
+## Optional
+
+- [Site source on GitHub](https://github.com/thechelsuk/uk.thechels.tomoz): static HTML and CSS for this site
+- [More apps by thechelsuk](https://thechels.uk/projects): the developer's other apps and projects
