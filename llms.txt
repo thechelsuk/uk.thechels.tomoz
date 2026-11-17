@@ -48,6 +48,14 @@ Yes. Your calendar and Reminders data stays on your device and is never sent to 
 
 iPhone running iOS 18.5 or later.
 
+### Found a bug or have an idea?
+
+Tell me on GitHub: [raise an issue](https://github.com/thechelsuk/uk.thechels.tomoz/issues/new/choose) and choose the form for a bug, a feature request, a question or general feedback. You'll need a free GitHub account.
+
+### Can I just email you?
+
+Yes. Email feedback@thechels.uk with Tomoz in the subject.
+
 ## Optional
 
 - [Site source on GitHub](https://github.com/thechelsuk/uk.thechels.tomoz): static HTML and CSS for this site
