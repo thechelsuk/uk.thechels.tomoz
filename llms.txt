@@ -7,7 +7,7 @@ Available now on the App Store.
 Key facts:
 
 - Platform: iPhone, iOS 18.5 or later
-- Price: free to download; the optional Reminders add-on is a one-time £1.99 in-app purchase
+- Price: free to download; the optional Reminders add-on is a one-off £1.99 in-app purchase
 - Privacy: calendar and Reminders data stays on the device and is never sent to a server
 - Developer: Mat Benfield (thechelsuk), made in the UK
 
@@ -34,7 +34,7 @@ Tomoz shows a clean preview of tomorrow's calendar events so you can plan the ni
 
 ### Does it show my reminders too?
 
-Yes. With the optional Reminders add-on, a one-time £1.99 in-app purchase, your tasks appear alongside tomorrow's events.
+Yes. With the optional Reminders add-on, a one-off £1.99 in-app purchase, your tasks appear alongside tomorrow's events.
 
 ### Can I export my plan?
 
