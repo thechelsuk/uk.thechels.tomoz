@@ -14,7 +14,7 @@ Key facts:
 ## Links
 
 - [Tomoz website](https://tomoz.thechels.uk/): the official marketing site
-- [App Store](https://apps.apple.com/gb/app/tomoz/id6748755747): download the app
+- [App Store](https://apps.apple.com/gb/app/tomoz/id6748755747?pt=127889770&ct=marketing&mt=8): download the app
 - [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
 - [Project page](https://thechels.uk/projects/tomoz): background from the developer
 
